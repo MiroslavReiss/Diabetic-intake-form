@@ -1,0 +1,345 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Diabetes form</title>
+<style type="text/css">
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+}
+</style>
+</head>
+<body>
+
+<form  method="post" action="formprocess.php" >
+
+
+<div id="wb_Text1" style="margin:0;padding:0;position:absolute;left:213px;top:42px;width:382px;height:40px;text-align:left;z-index:3;">
+<font style="font-size:35px" color="#CC0066" face="Courier New"><b><u>Diabetes Form</u></b></font></div>
+<input type="text" id="Editbox1" style="position:absolute;left:14px;top:147px;width:53px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:4" name="age" value="" maxlength="3" tabindex="1" title="Patients age">
+<div style="position:absolute;left:106px;top:146px;width:128px;height:20px;border:1px #C0C0C0 solid;z-index:5">
+<select name="race" size="1" id="Combobox1" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="2" title="Patient&apos;s ethinicity">
+<option value="African American">African American</option>
+<option value="Asian">Asian</option>
+<option value="Caucasian">Caucasian</option>
+<option value="Hispanic">Hispanic</option>
+</select>
+</div>
+<div style="position:absolute;left:266px;top:146px;width:54px;height:20px;border:1px #C0C0C0 solid;z-index:6">
+<select name="sex" size="1" id="Combobox2" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="3" title="Patient&apos;s sex">
+<option value="male">male</option>
+<option value="female">female</option>
+</select>
+</div>
+<div id="wb_Text2" style="margin:0;padding:0;position:absolute;left:14px;top:128px;width:36px;height:16px;text-align:left;z-index:7;">
+<font style="font-size:13px" color="#000000" face="Arial">Age</font></div>
+<div id="wb_Text3" style="margin:0;padding:0;position:absolute;left:106px;top:128px;width:68px;height:16px;text-align:left;z-index:8;">
+<font style="font-size:13px" color="#000000" face="Arial">Ethinicity</font></div>
+<div id="wb_Text4" style="margin:0;padding:0;position:absolute;left:266px;top:128px;width:56px;height:16px;text-align:left;z-index:9;">
+<font style="font-size:13px" color="#000000" face="Arial">Sex</font></div>
+<div style="position:absolute;left:773px;top:140px;width:306px;height:166px;border:2px #C0C0C0 solid;z-index:1">
+<select name="pmh[]" multiple size="16" id="Combobox3" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="4" title="Hold CTRL for multiple selection">
+
+<option value="Arthritis">Arthritis</option>
+<option value="Asthma">Asthma</option>
+<option value="CAD">CAD</option>
+<option value="CHF">CHF</option>
+<option value="COPD">COPD</option>
+<option value="CVA">CVA</option>
+<option value="Diabetes">Diabetes</option>
+<option value="Diabettic retinopathy">Diabetic retinopathy</option>
+<option value="Diabetic nephropathy">Diabetic nephropathy</option>
+
+<option value="Dyslipidemia">Dyslipidemia</option>
+<option value="GERD">GERD</option>
+<option value="Hypertension">Hypertension</option>
+<option value="Migraine">Migraine</option>
+<option value="Osteoporosis">Osteoporosis</option>
+<option value="Peripheral neuropathy">Peripheral neuropathy</option>
+<option value="Vitamin D deficiency">Vitamin D deficiency</option>
+</select>
+</div>
+<div id="wb_Text50" style="margin:0;padding:0;position:absolute;left:773px;top:315px;width:310px;height:16px;text-align:left;z-index:3;">
+<font style="font-size:13px" color="#000000" face="Arial">Medication List</font></div>  
+<textarea name="medication" id="TextArea2" style="position:absolute;left:773px;top:335px;width:308px;height:97px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:2" rows="5" cols="45"></textarea>
+  
+<input type="text" id="Editbox34" style="position:absolute;left:1050px;top:761px;width:48px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:4" name="fsbreakfast" value="" tabindex="28">
+<input type="text" id="Editbox35" style="position:absolute;left:1050px;top:803px;width:48px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:5" name="fslunch" value="" tabindex="28">
+<input type="text" id="Editbox36" style="position:absolute;left:1050px;top:843px;width:48px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:6" name="fsdinner" value="" tabindex="28">
+<div id="wb_Text51" style="margin:0;padding:0;position:absolute;left:1035px;top:716px;width:80px;height:16px;text-align:left;z-index:7;">
+<font style="font-size:13px" color="#000000" face="Arial">Finger stick</font></div>
+  
+<div id="wb_JavaScript1" style="margin:0;padding:0;position:absolute;left:770px;top:60px;width:160px;height:41px;text-align:left;z-index:11;">
+<div style="color:#000000;font-size:12px;font-family:Arial;font-weight:normal;font-style:normal;text-decoration:none"id="basicdate"></div>
+<script type="text/javascript">
+   var now = new Date();
+   var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+   var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+   var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+   var year = (now.getYear() < 1000) ? now.getYear() + 1900 : now.getYear();
+   today = days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + year;
+   var basicdate = document.getElementById('basicdate');
+   basicdate.innerHTML = today;
+</script>
+
+
+</div>
+<div id="wb_JavaScript2" style="margin:0;padding:0;position:absolute;left:940px;top:60px;width:149px;height:41px;text-align:left;z-index:12;">
+<div style="color:#000000;font-size:12px;font-family:Arial;font-weight:normal;font-style:normal;text-decoration:none"id="basicclock"></div>
+<script type="text/javascript">
+function clock()
+{
+   var digital = new Date();
+   var hours = digital.getHours();
+   var minutes = digital.getMinutes();
+   var seconds = digital.getSeconds();
+   if (minutes <= 9) minutes = "0" + minutes;
+   if (seconds <= 9) seconds = "0" + seconds;
+   dispTime = hours + ":" + minutes + ":" + seconds;
+
+   var basicclock = document.getElementById('basicclock');
+   basicclock.innerHTML = dispTime;
+   setTimeout("clock()", 1000);
+}
+clock();
+</script>
+
+</div>
+<input type="checkbox" id="Checkbox1" name="polyphagia" value="on" style="position:absolute;left:15px;top:219px;z-index:13"tabindex="5">
+<input type="checkbox" id="Checkbox2" name="polydipsia" value="on" style="position:absolute;left:128px;top:219px;z-index:14"tabindex="6">
+<input type="checkbox" id="Checkbox3" name="polyuria" value="on" style="position:absolute;left:249px;top:219px;z-index:15"tabindex="7">
+<input type="checkbox" id="Checkbox4" name="nocturia" value="on" style="position:absolute;left:370px;top:219px;z-index:16"tabindex="8">
+<input type="checkbox" id="Checkbox5" name="vision" value="on" style="position:absolute;left:491px;top:219px;z-index:17"tabindex="9">
+<input type="checkbox" id="Checkbox6" name="chest pain" value="on" style="position:absolute;left:15px;top:267px;z-index:18"tabindex="10">
+<input type="checkbox" id="Checkbox7" name="sob" value="on" style="position:absolute;left:128px;top:267px;z-index:19"tabindex="11">
+<input type="checkbox" id="Checkbox8" name="palpitations" value="on" style="position:absolute;left:249px;top:267px;z-index:20"tabindex="12">
+<input type="checkbox" id="Checkbox9" name="early satiety" value="on" style="position:absolute;left:370px;top:267px;z-index:21"tabindex="13">
+<input type="checkbox" id="Checkbox10" name="nausea" value="on" style="position:absolute;left:491px;top:267px;z-index:22"tabindex="14">
+<input type="checkbox" id="Checkbox11" name="vomiting" value="on" style="position:absolute;left:15px;top:309px;z-index:23"tabindex="15">
+<input type="checkbox" id="Checkbox12" name="constipation" value="on" style="position:absolute;left:128px;top:309px;z-index:24"tabindex="16">
+<input type="checkbox" id="Checkbox13" name="diarrhea" value="on" style="position:absolute;left:249px;top:309px;z-index:25"tabindex="17">
+<div id="wb_Text5" style="margin:0;padding:0;position:absolute;left:41px;top:221px;width:73px;height:16px;text-align:left;z-index:26;">
+<font style="font-size:13px" color="#000000" face="Arial">Polyphagia</font></div>
+<div id="wb_Text6" style="margin:0;padding:0;position:absolute;left:162px;top:221px;width:73px;height:16px;text-align:left;z-index:27;">
+<font style="font-size:13px" color="#000000" face="Arial">Polydipsia</font></div>
+<div id="wb_Text7" style="margin:0;padding:0;position:absolute;left:283px;top:221px;width:73px;height:16px;text-align:left;z-index:28;">
+<font style="font-size:13px" color="#000000" face="Arial">Polyuria</font></div>
+<div id="wb_Text8" style="margin:0;padding:0;position:absolute;left:404px;top:221px;width:73px;height:16px;text-align:left;z-index:29;">
+<font style="font-size:13px" color="#000000" face="Arial">Nocturia</font></div>
+<div id="wb_Text9" style="margin:0;padding:0;position:absolute;left:522px;top:213px;width:67px;height:32px;text-align:left;z-index:30;">
+<font style="font-size:13px" color="#000000" face="Arial">Blurring of vision </font></div>
+<div id="wb_Text10" style="margin:0;padding:0;position:absolute;left:41px;top:269px;width:73px;height:16px;text-align:left;z-index:31;">
+<font style="font-size:13px" color="#000000" face="Arial">Chest pain</font></div>
+<div id="wb_Text11" style="margin:0;padding:0;position:absolute;left:162px;top:261px;width:73px;height:32px;text-align:left;z-index:32;">
+<font style="font-size:13px" color="#000000" face="Arial">Shortness of breath </font></div>
+<div id="wb_Text12" style="margin:0;padding:0;position:absolute;left:283px;top:269px;width:73px;height:16px;text-align:left;z-index:33;">
+<font style="font-size:13px" color="#000000" face="Arial">Palpitations</font></div>
+<div id="wb_Text13" style="margin:0;padding:0;position:absolute;left:404px;top:261px;width:46px;height:32px;text-align:left;z-index:34;">
+<font style="font-size:13px" color="#000000" face="Arial">Early satiety</font></div>
+<div id="wb_Text14" style="margin:0;padding:0;position:absolute;left:522px;top:269px;width:73px;height:16px;text-align:left;z-index:35;">
+<font style="font-size:13px" color="#000000" face="Arial">Nausea</font></div>
+<div id="wb_Text15" style="margin:0;padding:0;position:absolute;left:41px;top:309px;width:73px;height:16px;text-align:left;z-index:36;">
+<font style="font-size:13px" color="#000000" face="Arial">Vomiting</font></div>
+<div id="wb_Text16" style="margin:0;padding:0;position:absolute;left:162px;top:309px;width:73px;height:32px;text-align:left;z-index:37;">
+<font style="font-size:13px" color="#000000" face="Arial">Constipation</font></div>
+<div id="wb_Text17" style="margin:0;padding:0;position:absolute;left:283px;top:309px;width:73px;height:16px;text-align:left;z-index:38;">
+<font style="font-size:13px" color="#000000" face="Arial">Diarrhea</font></div>
+<input type="checkbox" id="Checkbox14" name="sexual" value="on" style="position:absolute;left:370px;top:309px;z-index:39"tabindex="18">
+<input type="checkbox" id="Checkbox15" name="pins" value="on" style="position:absolute;left:491px;top:309px;z-index:40"tabindex="19">
+<div id="wb_Text18" style="margin:0;padding:0;position:absolute;left:404px;top:309px;width:73px;height:32px;text-align:left;z-index:41;">
+<font style="font-size:13px" color="#000000" face="Arial">Sexual dysfunction</font></div>
+<div id="wb_Text19" style="margin:0;padding:0;position:absolute;left:522px;top:309px;width:89px;height:32px;text-align:left;z-index:42;">
+<font style="font-size:13px" color="#000000" face="Arial">Pins &amp; needle sensation</font></div>
+<div id="wb_Line1" style="margin:0;padding:0;position:absolute;left:696px;top:106px;width:0px;height:1040px;text-align:left;z-index:43;">
+<img src="images/img0001.png" id="Line1" alt="" title="" style="border-width:0;width:8px;height:1048px"></div>
+<div id="wb_Text20" style="margin:0;padding:0;position:absolute;left:773px;top:442px;width:125px;height:16px;text-align:left;z-index:44;">
+<font style="font-size:13px" color="#000000" face="Arial">Social History</font></div>
+<div id="wb_Text21" style="margin:0;padding:0;position:absolute;left:773px;top:484px;width:73px;height:16px;text-align:left;z-index:45;">
+<font style="font-size:13px" color="#000000" face="Arial">Smoking</font></div>
+<div id="wb_Text22" style="margin:0;padding:0;position:absolute;left:773px;top:532px;width:58px;height:16px;text-align:left;z-index:46;">
+<font style="font-size:13px" color="#000000" face="Arial">Alcohol</font></div>
+<div id="wb_Text23" style="margin:0;padding:0;position:absolute;left:773px;top:577px;width:73px;height:16px;text-align:left;z-index:47;">
+<font style="font-size:13px" color="#000000" face="Arial">Drugs</font></div>
+<div style="position:absolute;left:832px;top:481px;width:85px;height:20px;border:1px #C0C0C0 solid;z-index:48">
+<select name="smoking" size="1" id="Combobox4" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="20" title="How many packs did the patient smoke">
+<option value="1 PPD">1 PPD </option>
+<option value="1/2 PPD">1/2 PPD</option>
+<option value="never ">Never </option>
+<option value="occasional">Occasional </option>
+<option value="quit">Quit</option>
+</select>
+</div>
+<div style="position:absolute;left:980px;top:481px;width:64px;height:20px;border:1px #C0C0C0 solid;z-index:49">
+<select name="period" size="1" id="Combobox5" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="22" title="How many packs did the patient smoke">
+<option value="months">Months</option>
+<option value="weeks">Weeks</option>
+<option value="days">Days</option>
+<option value="years">Years</option>
+</select>
+</div>
+<input type="text" id="Editbox2" style="position:absolute;left:926px;top:482px;width:39px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:50" name="number" value="" tabindex="21">
+<div style="position:absolute;left:832px;top:529px;width:85px;height:20px;border:1px #C0C0C0 solid;z-index:51">
+<select name="alcohol" size="1" id="Combobox6" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="23" title="How much did the patient drank">
+<option value="1 pint a day">1 pint a day</option>
+<option value="1/2 pint per day">1/2 pint per day</option>
+<option value="occasional">Occasional</option>
+<option value="never">Never</option>
+</select>
+</div>
+<input type="text" id="Editbox3" style="position:absolute;left:928px;top:530px;width:39px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:52" name="anumber" value="" tabindex="24">
+<div style="position:absolute;left:981px;top:529px;width:64px;height:20px;border:1px #C0C0C0 solid;z-index:53">
+<select name="aperiod" size="1" id="Combobox7" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="25" title="How many packs did the patient smoke">
+<option value="months">Months</option>
+<option value="weeks">Weeks</option>
+<option value="days">Days</option>
+<option value="years">Years</option>
+</select>
+</div>
+<input type="text" id="Editbox4" style="position:absolute;left:831px;top:575px;width:211px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:54" name="dugs" value="" tabindex="26">
+<div id="wb_Text24" style="margin:0;padding:0;position:absolute;left:772px;top:631px;width:125px;height:16px;text-align:left;z-index:55;">
+<font style="font-size:13px" color="#000000" face="Arial">Family History</font></div>
+<input type="text" id="Editbox5" style="position:absolute;left:773px;top:667px;width:254px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:56" name="family" value="" tabindex="27">
+<div id="wb_Text25" style="margin:0;padding:0;position:absolute;left:773px;top:716px;width:125px;height:16px;text-align:left;z-index:57;">
+<font style="font-size:13px" color="#000000" face="Arial">Dietetic history</font></div>
+<div id="wb_Text26" style="margin:0;padding:0;position:absolute;left:773px;top:761px;width:125px;height:16px;text-align:left;z-index:58;">
+<font style="font-size:13px" color="#000000" face="Arial">Breakfast</font></div>
+<div id="wb_Text27" style="margin:0;padding:0;position:absolute;left:773px;top:803px;width:54px;height:16px;text-align:left;z-index:59;">
+<font style="font-size:13px" color="#000000" face="Arial">Lunch</font></div>
+<div id="wb_Text28" style="margin:0;padding:0;position:absolute;left:773px;top:843px;width:54px;height:16px;text-align:left;z-index:60;">
+<font style="font-size:13px" color="#000000" face="Arial">Dinner</font></div>
+<div id="wb_Text29" style="margin:0;padding:0;position:absolute;left:773px;top:894px;width:125px;height:16px;text-align:left;z-index:61;">
+<font style="font-size:13px" color="#000000" face="Arial">Snacks</font></div>
+<input type="text" id="Editbox6" style="position:absolute;left:843px;top:761px;width:178px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:62" name="breakfast" value="" tabindex="28">
+<input type="text" id="Editbox7" style="position:absolute;left:843px;top:803px;width:178px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:63" name="lunch" value="" tabindex="29">
+<input type="text" id="Editbox8" style="position:absolute;left:843px;top:843px;width:178px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:64" name="dinner" value="" tabindex="30">
+<input type="text" id="Editbox9" style="position:absolute;left:847px;top:894px;width:178px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:65" name="snacks" value="" tabindex="31">
+<div id="wb_Text30" style="margin:0;padding:0;position:absolute;left:22px;top:350px;width:139px;height:16px;text-align:left;z-index:66;">
+<font style="font-size:13px" color="#000000" face="Arial">Physical Examination</font></div>
+<div id="wb_Text31" style="margin:0;padding:0;position:absolute;left:22px;top:390px;width:27px;height:16px;text-align:left;z-index:67;">
+<font style="font-size:13px" color="#000000" face="Arial">HR</font></div>
+<div id="wb_Text32" style="margin:0;padding:0;position:absolute;left:138px;top:390px;width:27px;height:16px;text-align:left;z-index:68;">
+<font style="font-size:13px" color="#000000" face="Arial">BP</font></div>
+<div id="wb_Text33" style="margin:0;padding:0;position:absolute;left:266px;top:390px;width:27px;height:16px;text-align:left;z-index:69;">
+<font style="font-size:13px" color="#000000" face="Arial">RR</font></div>
+<div id="wb_Text34" style="margin:0;padding:0;position:absolute;left:395px;top:390px;width:40px;height:16px;text-align:left;z-index:70;">
+<font style="font-size:13px" color="#000000" face="Arial">Temp</font></div>
+<input type="text" id="Editbox10" style="position:absolute;left:55px;top:387px;width:41px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:71" name="hr" value="" tabindex="32">
+<input type="text" id="Editbox11" style="position:absolute;left:169px;top:387px;width:75px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:72" name="bp" value="" tabindex="33">
+<input type="text" id="Editbox12" style="position:absolute;left:310px;top:387px;width:41px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:73" name="rr" value="" tabindex="34">
+<input type="text" id="Editbox13" style="position:absolute;left:467px;top:387px;width:41px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:74" name="temp" value="" tabindex="35">
+<div id="wb_Text35" style="margin:0;padding:0;position:absolute;left:25px;top:429px;width:50px;height:16px;text-align:left;z-index:75;">
+<font style="font-size:13px" color="#000000" face="Arial">HEENT</font></div>
+<div id="wb_Text36" style="margin:0;padding:0;position:absolute;left:25px;top:462px;width:50px;height:16px;text-align:left;z-index:76;">
+<font style="font-size:13px" color="#000000" face="Arial">Chest</font></div>
+<div id="wb_Text37" style="margin:0;padding:0;position:absolute;left:25px;top:495px;width:50px;height:16px;text-align:left;z-index:77;">
+<font style="font-size:13px" color="#000000" face="Arial">CVS</font></div>
+<div id="wb_Text38" style="margin:0;padding:0;position:absolute;left:25px;top:528px;width:60px;height:16px;text-align:left;z-index:78;">
+<font style="font-size:13px" color="#000000" face="Arial">Abdomen</font></div>
+<div id="wb_Text39" style="margin:0;padding:0;position:absolute;left:25px;top:561px;width:50px;height:16px;text-align:left;z-index:79;">
+<font style="font-size:13px" color="#000000" face="Arial">Neuro</font></div>
+<div id="wb_Text40" style="margin:0;padding:0;position:absolute;left:10px;top:590px;width:71px;height:16px;text-align:left;z-index:80;">
+<font style="font-size:13px" color="#000000" face="Arial">Extremities</font></div>
+<div style="position:absolute;left:89px;top:430px;width:349px;height:20px;border:1px #C0C0C0 solid;z-index:81">
+<select name="heent" size="1" id="Combobox8" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="36">
+<option value="PEERLA, EOMI, No thyromegaly, No carotid bruit">PEERLA, EOMI, No thyromegaly, No carotid bruit</option>
+<option value="PEERLA, EOMI, No thyromegaly, carotid bruit present">PEERLA, EOMI, No thyromegaly, carotid bruit present</option>
+<option value="ERLA, EOMI, thyromegaly present, no carotid bruit">PEERLA, EOMI, thyromegaly present, no carotid bruit</option>
+<option value="RLA, Exopthalmosis present, thyromegaly present, no carotid bruit">ERLA, Exopthalmosis present, thyromegaly present, no carotid bruit</option>
+<option value="RLA, Exopthalmosis present,no thyromegaly, no carotid br">RLA, Exopthalmosis present,no thyromegaly, no carotid bruit</option>
+</select>
+</div>
+<div style="position:absolute;left:88px;top:468px;width:350px;height:20px;border:1px #C0C0C0 solid;z-index:82">
+<select name="chest" size="1" id="Combobox9" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="37">
+<option value="clear b/l, no wheezing, no crepitations">Clear b/l, no wheezing, no crepitations</option>
+<option value="Wheezing present">Wheezing present</option>
+<option value="Crepitations present">Crepitations present</option>
+<option value="Crackles present">Crackles present</option>
+<option value="B/L basal crackles present">B/L basal crackles present</option>
+<option value="Decreased breath sounds">Decreased breath sounds</option>
+</select>
+</div>
+<div style="position:absolute;left:89px;top:500px;width:349px;height:20px;border:1px #C0C0C0 solid;z-index:83">
+<select name="cvs" size="1" id="Combobox10" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="38">
+<option value="S1 S2 heard, RRR, no murmur">S1 S2 heard, RRR, no murmur</option>
+<option value="S1 S2 heard, RRR, systolic murmur present">S1 S2 heard, RRR, systolic murmur present</option>
+<option value="S1 S2 heard, RRR, diastolic murmur present">S1 S2 heard, RRR, diastolic murmur present</option>
+<option value="S1 S2 heard, irregular">S1 S2 heard, irregular</option>
+</select>
+</div>
+<div style="position:absolute;left:89px;top:531px;width:349px;height:20px;border:1px #C0C0C0 solid;z-index:84">
+<select name="abdomen" size="1" id="Combobox11" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="39">
+<option value="Soft, non distended, non tender, bowel sounds +">Soft, non distended, non tender, bowel sounds +</option>
+<option value="Soft, distended, non tender, bowel sounds +">Soft, distended, non tender, bowel sounds +</option>
+<option value="Tenderness +">Tenderness +</option>
+</select>
+</div>
+<div style="position:absolute;left:90px;top:560px;width:348px;height:20px;border:1px #C0C0C0 solid;z-index:85">
+<select name="neuro" size="1" id="Combobox12" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="40">
+<option value="No focal neurological deficits">No focal neurological deficits</option>
+</select>
+</div>
+<div style="position:absolute;left:90px;top:591px;width:348px;height:20px;border:1px #C0C0C0 solid;z-index:86">
+<select name="extremities" size="1" id="Combobox13" style="position:absolute;left:0px;top:0px;width:100%;height:100%;border-width:0px;font-family:Arial;font-size:13px;" tabindex="41">
+<option value="Peripheral pulses +, sensations intact with monofilamen">Peripheral pulses +, sensations intact with monofilament</option>
+<option value="Peripheral pulses +, decreased sensations">Peripheral pulses +, decreased sensations</option>
+<option value="Decreased pulses, decreased sensations">Decreased pulses, decreased sensations</option>
+<option value="Decreased pulses, normal sensations">Decreased pulses, normal sensations</option>
+</select>
+</div>
+<div id="wb_Text41" style="margin:0;padding:0;position:absolute;left:10px;top:620px;width:78px;height:16px;text-align:left;z-index:87;">
+<font style="font-size:13px" color="#000000" face="Arial">Labs</font></div>
+<input type="text" id="Editbox14" style="position:absolute;left:50px;top:680px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:88" name="wbc" value="" tabindex="42">
+<input type="text" id="Editbox15" style="position:absolute;left:190px;top:680px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:89" name="plt" value="" tabindex="45">
+<input type="text" id="Editbox16" style="position:absolute;left:120px;top:640px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:90" name="hb" value="" tabindex="43">
+<input type="text" id="Editbox17" style="position:absolute;left:120px;top:730px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:91" name="hct" value="" tabindex="44">
+<input type="text" id="Editbox18" style="position:absolute;left:330px;top:670px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:92" name="na" value="" tabindex="46">
+<input type="text" id="Editbox19" style="position:absolute;left:400px;top:670px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:93" name="cl" value="" tabindex="48">
+<input type="text" id="Editbox20" style="position:absolute;left:470px;top:670px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:94" name="bun" value="" tabindex="50">
+<input type="text" id="Editbox21" style="position:absolute;left:330px;top:720px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:95" name="k" value="" tabindex="47">
+<input type="text" id="Editbox22" style="position:absolute;left:400px;top:720px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:96" name="bicarb" value="" tabindex="49">
+<input type="text" id="Editbox23" style="position:absolute;left:470px;top:720px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:97" name="creat" value="" tabindex="51">
+<input type="text" id="Editbox24" style="position:absolute;left:550px;top:690px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:98" name="gluc" value="" tabindex="52">
+<div id="wb_Line2" style="margin:0;padding:0;position:absolute;left:46px;top:636px;width:180px;height:110px;text-align:left;z-index:2;">
+<img src="images/img0002.png" id="Line2" alt="" title="" style="border-width:0;width:188px;height:118px"></div>
+<div id="wb_Line3" style="margin:0;padding:0;position:absolute;left:45px;top:636px;width:181px;height:110px;text-align:left;z-index:3;">
+<img src="images/img0003.png" id="Line3" alt="" title="" style="border-width:0;width:189px;height:118px"></div>
+<div id="wb_Line4" style="margin:0;padding:0;position:absolute;left:316px;top:696px;width:200px;height:0px;text-align:left;z-index:4;">
+<img src="images/img0004.png" id="Line4" alt="" title="" style="border-width:0;width:208px;height:8px"></div>
+<div id="wb_Line5" style="margin:0;padding:0;position:absolute;left:516px;top:656px;width:50px;height:39px;text-align:left;z-index:5;">
+<img src="images/img0005.png" id="Line5" alt="" title="" style="border-width:0;width:58px;height:47px"></div>
+<div id="wb_Line6" style="margin:0;padding:0;position:absolute;left:515px;top:696px;width:51px;height:40px;text-align:left;z-index:6;">
+<img src="images/img0006.png" id="Line6" alt="" title="" style="border-width:0;width:59px;height:48px"></div>
+<div id="wb_Text42" style="margin:0;padding:0;position:absolute;left:10px;top:770px;width:40px;height:16px;text-align:left;z-index:104;">
+<font style="font-size:13px" color="#000000" face="Arial">LRTS</font></div>
+<input type="text" id="Editbox25" style="position:absolute;left:50px;top:771px;width:218px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:105" name="lrts" value="" tabindex="53">
+<div id="wb_Text43" style="margin:0;padding:0;position:absolute;left:320px;top:770px;width:40px;height:16px;text-align:left;z-index:106;">
+<font style="font-size:13px" color="#000000" face="Arial">Lipids</font></div>
+<input type="text" id="Editbox26" style="position:absolute;left:380px;top:770px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:107" name="chol" value="" tabindex="54">
+<input type="text" id="Editbox27" style="position:absolute;left:440px;top:770px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:108" name="trig" value="" tabindex="55">
+<input type="text" id="Editbox28" style="position:absolute;left:500px;top:770px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:109" name="hdl" value="" tabindex="56">
+<input type="text" id="Editbox29" style="position:absolute;left:560px;top:770px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:110" name="ldl" value="" tabindex="57">
+<div id="wb_Text44" style="margin:0;padding:0;position:absolute;left:10px;top:830px;width:100px;height:16px;text-align:left;z-index:111;">
+<font style="font-size:13px" color="#000000" face="Arial">Hemoglobin A1c</font></div>
+<input type="text" id="Editbox30" style="position:absolute;left:120px;top:830px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:112" name="hba1c" value="" tabindex="58">
+<div id="wb_Text45" style="margin:0;padding:0;position:absolute;left:190px;top:830px;width:150px;height:16px;text-align:left;z-index:113;">
+<font style="font-size:13px" color="#000000" face="Arial">PreviousHemoglobin A1c</font></div>
+<input type="text" id="Editbox31" style="position:absolute;left:350px;top:830px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:114" name="phba1c" value="" tabindex="59">
+<div id="wb_Text46" style="margin:0;padding:0;position:absolute;left:420px;top:830px;width:80px;height:48px;text-align:left;z-index:115;">
+<font style="font-size:13px" color="#000000" face="Arial">Urine Microalbumin</font></div>
+<input type="text" id="Editbox32" style="position:absolute;left:510px;top:830px;width:38px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:116" name="um" value="" tabindex="60">
+<div id="wb_Text47" style="margin:0;padding:0;position:absolute;left:10px;top:870px;width:70px;height:16px;text-align:left;z-index:117;">
+<font style="font-size:13px" color="#000000" face="Arial">Other labs</font></div>
+<input type="text" id="Editbox33" style="position:absolute;left:90px;top:870px;width:508px;height:18px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:118" name="ol" value="" tabindex="61">
+<div id="wb_Text48" style="margin:0;padding:0;position:absolute;left:10px;top:910px;width:140px;height:16px;text-align:left;z-index:119;">
+<font style="font-size:13px" color="#000000" face="Arial">Assessment and&nbsp; plan</font></div>
+<textarea name="ap" id="TextArea1" style="position:absolute;left:10px;top:940px;width:609px;height:178px;border:1px #C0C0C0 solid;font-family:Arial;font-size:13px;z-index:120" rows="10" cols="95" tabindex="62"></textarea>
+<div id="wb_Text49" style="margin:0;padding:0;position:absolute;left:770px;top:120px;width:143px;height:16px;text-align:left;z-index:121;">
+<font style="font-size:13px" color="#000000" face="Arial">Past medical history</font></div>
+<input type="submit" style="position:absolute;left:896px;top:962px;width:96px;height:25px;font-family:Arial;font-size:13px;z-index:0" tabindex="63">
+  </form>
+</body>
+</html>
+​
